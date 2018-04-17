@@ -1,0 +1,1219 @@
+.body {
+    height: 100%;
+}
+
+.mian {
+    width: calc(100% - 192px);
+    min-width: 769px !important;
+    padding-left: 192px;
+    padding-top: 82px;
+
+}
+
+.Pos_rela {
+    position: relative;
+    height: 30px;
+}
+
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {
+    display: none;
+}
+
+.page-header-fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+    min-width: 840px !important;
+    wdith: 100%;
+    z-index: 3000;
+    height: 80px;
+}
+
+.page_left_fixed {
+    position: fixed;
+    left: 0;
+    top: 82px;
+    width: 190px;
+    background-color: #fafafa;
+    height: calc(100% - 82px) !important;
+    height: 100%;
+    z-index: 1000;
+    overflow-y: scroll;
+    border-right: 1px solid #ddd;
+}
+
+.errorArrow {
+    background-image: url(../images/error.png);
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: -10px;
+    margin-top: -8px;
+}
+
+.errorBox {
+    padding: 2px 10px;
+    line-height: 14px;
+    background-color: #fce7b6;
+    position: absolute;
+    left: 143px;
+    margin-top: 26px;
+    font-size: 12px;
+    color: #d80031;
+    display: none;
+    width: 120px;
+    z-index: 3000000000;
+}
+
+.marginTopFU {
+    margin-top: -10px;
+}
+
+select:focus {
+    outline: none;
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+input[type="password"]:focus {
+    outline: none;
+}
+
+.selectLabel {
+    line-height: 30px;
+}
+
+.BlockCenter {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.floatLeft {
+    float: left;
+}
+
+.floatRight {
+    float: right;
+}
+
+.clearBoth {
+    clear: both;
+}
+
+.textWhite {
+    color: #fff;
+}
+
+.textblue {
+    color: #4aafd4;
+}
+
+.textOrange {
+    color: #fd7930;
+}
+
+.textZhu {
+    color: #d80031 !important;
+}
+
+.Boxshadow {
+    box-shadow: 0px 0px 6px #ccc;
+    -moz-box-shadow: 0px 0px 6px #ccc;
+    -webkit-box-shadow: 0px 0px 6px #ccc;
+    filter: progid:DXImageTransform.Microsoft.Shadow(color=white, Direction=0, Strength=0);
+}
+
+.backgroundOrange {
+    background-color: #fd7930;
+}
+
+.backgroundWhite {
+    background-color: #fff;
+}
+
+.backgroundGray {
+    background-color: #999;
+}
+
+.backgroundBlue {
+    background-color: #4aafd4;
+}
+
+.backgroundRed {
+    background-color: #d80031;
+}
+
+.marginTop10 {
+    margin-top: 10px;
+}
+
+.marginLeft10 {
+    margin-left: 10px;
+}
+
+.marginRight10 {
+    margin-right: 10px;
+}
+
+.marginBottom10 {
+    margin-bottom: 10px;
+}
+
+.paddingBottom10 {
+    padding-bottom: 10px;
+}
+
+.borderRadius {
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.displayBlock {
+    display: block;
+}
+
+.displayInlineBlock {
+    display: inline-block;
+}
+
+.displayNone {
+    display: none;
+}
+
+.borderBottomWhite {
+    border-bottom: 1px solid #fff;
+}
+
+.borderBottomOrange {
+    border-bottom: 1px solid #fd7930;
+}
+
+.backgroundTransparent {
+    background-color: transparent
+}
+
+.width180 {
+    width: 180px;
+}
+
+.width150 {
+    width: 150px !important;
+}
+
+.width120 {
+    width: 120px;
+}
+
+.width80 {
+    width: 80px;
+}
+
+.width40 {
+    width: 40px;
+}
+
+.width60 {
+    width: 60px;
+}
+
+.width30 {
+    width: 30px;
+}
+
+.width20 {
+    width: 20px;
+}
+
+.widthMax {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+
+.header {
+
+    width: 100%;
+    border: 0px;
+    padding: 20px 0px;
+    box-shadow: none;
+    height: 40px;
+    filter: none !important;
+    background-image: url(../images/headerBg.jpg);
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    border-bottom: 1px solid #bbb;
+    border-top: 1px solid #bbb;
+}
+
+.page-header-fixed {
+    min-width: 1000px !important;
+    z-index: 3000;
+}
+
+.navbar-inner {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: calc(100% - 40px);
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.login_logo {
+    width: 140px;
+}
+
+.login_logo img {
+    width: 100%;
+}
+
+.login_titile {
+    line-height: 40px;
+    font-size: 20px;
+    padding-left: 20px;
+    color: #d80031;
+    margin-left: 20px;
+    border-left: 1px solid #727171;
+}
+
+.IdentityBox {
+    float: right;
+    margin-right: 20px;
+    display: block;
+    width: auto;
+    padding: 0px;
+    margin-top: 10px;
+}
+
+.IdentityBox a, .IdentityBox img {
+    float: left;
+    margin-left: 10px;
+    color: #666;
+    font-size: 13px;
+}
+
+.IdentityBox a:hover {
+    color: #d80031;
+}
+
+.IdentityBox p {
+    width: 14px;
+    display: block;
+    width: auto;
+}
+
+.IdentityBox img {
+    width: 14px;
+    padding-right: 4px;
+    margin-top: 2px;
+}
+
+/*左边菜单*/
+
+.iconEquipment {
+    background-image: url(../images/iconEquipment.png);
+}
+
+.iconEquipment2 {
+    background-image: url(../images/iconEquipment2.png) !important;
+}
+
+.iconOTA {
+    background-image: url(../images/iconOTA.png);
+}
+
+.iconOTA2 {
+    background-image: url(../images/iconOTA2.png) !important;
+}
+
+.iconMuPOS {
+    background-image: url(../images/iconMuPOS.png);
+}
+
+.iconMuPOS2 {
+    background-image: url(../images/iconMuPOS2.png) !important;
+}
+
+.iconBranch {
+    background-image: url(../images/iconBranch.png);
+}
+
+.iconBranch2 {
+    background-image: url(../images/iconBranch2.png) !important;
+}
+
+.menu {
+    background-image: url(../images/menuBg.jpg);
+    border-bottom: 1px solid #d8d7d7;
+    width: calc(100% - 20px);
+    padding: 0px 0px 0px 20px;
+    line-height: 40px;
+    font-size: 16px;
+    color: #444;
+    display: block;
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.menu a {
+    width: 100%;
+    line-height: 40px;
+    font-size: 16px;
+    color: #444;
+    display: block;
+    height: 40px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.menu:hover {
+    opacity: 0.9;
+    filter: alpha(opacity=90);
+    -moz-opacity: 0.9;
+    -khtml-opacity: 0.9;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+    filter: "alpha(opacity=90)";
+}
+
+.MenuCurrent {
+    background-image: none;
+    background-color: #d80031 !important;
+    color: #fff !important;
+}
+
+.MenuCurrent a {
+    background-image: none;
+    background-color: #d80031 !important;
+    color: #fff !important;
+}
+
+.MenuCurrent:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100) !important;
+    filter: "alpha(opacity=100)";
+}
+
+.MenuCurrent a:hover {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    -moz-opacity: 1;
+    -khtml-opacity: 1;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=100);
+    filter: "alpha(opacity=100)";
+}
+
+.menuIcon {
+    margin-top: 10px;
+    width: 26px;
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    filter: "alpha(opacity=80)";
+    height: 20px;
+    background-size: 20px 20px;
+    -moz-background-size: 20px 20px;
+    -webkit-background-size: 20px 20px;
+    -o-background-size: 20px 20px;
+    background-position: left center;
+    -ms-background-position-x: left;
+    -ms-background-position-y: center;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 10px;
+}
+
+/*右侧内容*/
+.leftContent {
+    padding: 10px;
+    width: calc(100% - 40px);
+    background-color: #fff;
+    min-width: calc(840px - 40px) !important;
+    border: 1px solid #ccc;
+}
+
+.ModelDetail {
+    width: 100%;
+    background-color: #fff;
+}
+
+.btn {
+    background-color: #d80031;
+    height: 30px;
+    color: #fff;
+}
+
+.btnBorder {
+    border: 2px solid #ccc;
+    height: 28px;
+    text-align: center;
+    line-height: 24px;
+    color: #444;
+}
+
+.seachEquip {
+    padding: 0 0px;
+    width: 100%;
+}
+
+.seachEquip label {
+    font-size: 14px;
+    color: #444;
+    line-height: 30px;
+    height: 30px;
+    display: block;
+    float: right;
+}
+
+.placeholder {
+    display: none;
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    color: #999;
+}
+
+.placeholderFile {
+    display: none;
+    position: absolute;
+    left: 6px;
+    top: 7px;
+    color: #999;
+}
+
+.seachIptText {
+    border: 1px solid #ccc;
+    height: 28px;
+    padding: 0px 5px;
+    line-height: 26px;
+    float: left;
+    width: 130px;
+}
+
+.seachSelect {
+    word-break: break-all;
+    border: 1px solid #ccc;
+    padding-left: 5px;
+    line-height: 28px;
+    height: 28px;
+    padding-right: 15px;
+    background-color: #fff;
+    background-image: url(../images/selectUp.png);
+    background-size: 13px 22px;
+    -moz-background-size: 13px 22px;
+    -webkit-background-size: 13px 22px;
+    text-align: left;
+    -o-background-size: 13px 22px;
+    background-position: right center;
+    -ms-background-position-x: right;
+    -ms-background-position-y: center;
+    background-repeat: no-repeat;
+    display: block;
+    float: left;
+    overflow: hidden;
+    z-index: 3000;
+}
+
+.seachSelectEE {
+    background-color: #eee !important;
+    background-image: url(../images/selectee.png) !important;
+}
+
+.seachSelectTransparent {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.selectBox {
+    float: left;
+    position: relative;
+    width: 142px;
+    overflow-x: hidden;
+}
+
+.selectHidden {
+    height: 30px;
+    line-height: 30px;
+    width: 144px;
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: block;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    filter: "alpha(opacity=90)";
+    -khtml-opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+}
+
+.seachSelect option {
+    height: 30px;
+    width: 100%;
+    text-align: left;
+    padding-left: 6px;
+    line-height: 30px;
+    border: 1px solid #aaa;
+}
+
+/*表格*/
+.tanTable td:nth-of-type(odd) {
+    background-color: #f9f9f9;
+    padding-left: 0px;
+}
+
+.tanTable .tdodd {
+    background-color: #f9f9f9;
+    padding-left: 0px;
+}
+
+.tanTable td {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding-left: 10px !important;
+    text-align: left !important;
+}
+
+.tableDetail {
+    width: 100%;
+    max-width: 100%;
+    table-layout: fixed;
+}
+
+.tableDetail > tbody > tr > td {
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.tableDetail > thead > tr > th, .tableDetail > tbody > tr > td {
+    word-break: break-all;
+    padding: 6px 8px;
+    line-height: 18px;
+    height: 18px;
+    text-align: center;
+}
+
+.tableDetail > thead > tr > th {
+    word-break: keep-all !important;
+    -ms-word-break: keep-all !important;
+    white-space: nowrap;
+}
+
+.tableDetail .Editor {
+    color: #0137ff;
+    font-size: 12px;
+    margin-right: 5px;
+    word-break: keep-all;
+    -ms-word-break: keep-all;
+    white-space: nowrap;
+}
+
+.tableDetail .Editor:hover {
+    color: #d80031;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.tableDetail > thead > tr > th {
+    background-color: #d80031;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+    border: 1px solid #d80031;
+}
+
+.tableDetail > tbody > tr {
+    background-color: #f0efef;
+}
+
+.tableDetail > tbody > tr:nth-of-type(odd) {
+    background-color: #fff
+}
+
+.tableDetail > tbody > tr > td {
+    color: #555;
+    border: 1px solid #ddd;
+    font-size: 12px;
+}
+
+.AdjustPage .seachIptText {
+    height: 20px;
+    line-height: 16px !important;
+    text-align: center;
+    padding: 0 2px;
+}
+
+.AdjustPage {
+    margin-left: auto;
+    margin-right: auto;
+    height: 24px;
+    width: 430px;
+    padding: 10px 0;
+}
+
+.AdjustPage .pageText {
+    width: 200px;
+    float: left;
+    text-align: center;
+    line-height: 24px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.AdjustPage a, .AdjustPage input {
+    float: left;
+    color: #666;
+    line-height: 20px !important;
+    font-size: 12px;
+
+}
+
+.AdjustPage .PageBtn {
+    border: 1px solid #ccc;
+    width: 48px;
+    height: 22px;
+    line-height: 22px !important;
+    text-align: center;
+    background-color: #fff;
+}
+
+.AdjustPage .PageBtn:hover {
+    background-color: #d80031;
+    color: #fff;
+}
+
+/*厂家input查询*/
+.CurrentPosition {
+    height: 24px;
+    line-height: 24px;
+    width: 100%;
+}
+
+.CurrentPosition .positionText {
+    font-size: 14px;
+    margin-right: 10px;
+    color: #444;
+}
+
+.CurrentPosition a:hover {
+    color: #d80031 !important;
+    text-decoration: underline !important;
+}
+
+.fromInputBtn {
+    width: calc(100% - 10px);
+    border-top: 2px solid #d80031 !important;
+    border: 1px solid #d8d5d5;
+    background-color: #f9f9f9;
+    padding: 5px;
+}
+
+.threeBtn {
+    width: 100%;
+    margin-top: 12px;
+}
+
+.threeBtn td {
+    text-align: center;
+    padding: 4px 0;
+    /*position:relative;*/
+}
+
+/*左侧菜单*/
+.menu .addIcon {
+    background-image: url(../images/addDown.png) !important;
+}
+
+.addiconleft {
+    background-image: url(../images/addiconleft.png) !important;
+}
+
+.addiconleftred {
+    background-image: url(../images/addiconleftred.png) !important;
+}
+
+.rightIcon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 144px;
+    top: 10px;
+    background-image: url(../images/addDown88.png) !important;
+}
+
+.submenu {
+    padding: 10px 20px 10px 60px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #444;
+    display: block;
+    height: 20px;
+    background-color: white;
+    border-bottom: 1px solid #d8d7d7;
+    cursor: pointer;
+    background-image: url(../images/addiconleft.png);
+    background-size: 18px 18px;
+    -moz-background-size: 18px 18px;
+    -webkit-background-size: 18px 18px;
+    -o-background-size: 18px 18px;
+    background-position: 145px center;
+    -ms-background-position-x: 145px;
+    -ms-background-position-y: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.currentSubmenu {
+    background-image: url(../images/addiconleftred.png) !important;
+    color: #d80031;
+}
+
+.submenu:hover {
+    opacity: 0.8;
+    filter: alpha(opacity=80);
+    -moz-opacity: 0.8;
+    -khtml-opacity: 0.8;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+    filter: "alpha(opacity=80)";
+}
+
+.iconApplicateManage {
+    background-image: url(../images/iconApplicateManage.png);
+}
+
+.iconApplicateManage2 {
+    background-image: url(../images/iconApplicateManage2.png) !important;
+}
+
+.iconApplicateGroup {
+    background-image: url(../images/iconApplicateGroup.png);
+}
+
+.iconApplicateGroup2 {
+    background-image: url(../images/iconApplicateGroup2.png) !important;
+}
+
+.iconApplicateParameter {
+    background-image: url(../images/iconApplicateParameter.png);
+}
+
+.iconApplicateParameter2 {
+    background-image: url(../images/iconApplicateParameter2.png) !important;
+}
+
+/*input[type=file]*/
+.inputFileBox {
+    width: 240px;
+    height: 26px;
+    position: relative;
+    left: 0;
+    top: 0;
+}
+
+.inputFileBox input[type=file] {
+    height: 18px;
+    width: 240px;
+    position: absolute;
+    left: 6px;
+    top: 4px;
+    font-size: 12px;
+    color: #444;
+    border: none;
+    background-color: transparent;
+    line-height: 26px;
+}
+
+.inputFileBox .fileHeightBtn {
+    height: 22px;
+    width: 66px;
+    position: absolute;
+    left: 5px;
+    top: 4px;
+    background-color: #f9f9f9;
+}
+
+.inputFileBox .file {
+    height: 30px;
+    line-height: 28px;
+    text-align: center;
+    width: 62px;
+    float: left;
+    top: 0px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    font-size: 13px;
+    color: #444;
+}
+
+.wait_box {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    z-index: 555555555555555;
+}
+
+/*应用包详情*/
+.packImg {
+    width: 90px;
+    height: 109px;
+    border: 1px solid #ddd;
+    float: left;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    overflow: hidden;
+}
+
+.packImg img {
+    width: 100%;
+}
+
+.PackDetail {
+    width: calc(100% - 99px);
+    float: left;
+}
+
+.overflowWidth {
+    width: 100%;
+    overflow: hidden;
+}
+
+.packTit {
+    font-size: 14px;
+    color: #444;
+    line-height: 18px;
+    height: 18px;
+    float: left;
+}
+
+.packContent {
+    font-size: 14px;
+    color: #666;
+    line-height: 18px;
+    float: left;
+    text-align: left;
+}
+
+/*error*/
+.errorPage {
+    border-top: 2px solid #d80031 !important;
+    background-color: #fff;
+    padding: 5px;
+    width: calc(100% - 10px) !important;
+    padding-top: 140px;
+    padding-bottom: 130px;
+}
+
+.BoxCenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.BoxCenter2 {
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+    display: block;
+}
+
+.errorPageText {
+    font-size: 16px;
+    width: 60%;
+    text-align: center;
+    color: #333;
+}
+
+.errorPageBtn {
+    width: 172px;
+    height: 32px;
+    border-radius: 16px;
+    background-image: url(../images/errorFanIcon.jpg);
+    background-size: 14px 16px;
+    background-color: transparent;
+    border: 1px solid #999;
+    background-repeat: no-repeat;
+    background-position: 30px center;
+    color: #333;
+    font-size: 16px;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+/*appp权限说明*/
+.permissions {
+    width: 25%;
+    float: left;
+    padding-top: 5px;
+}
+
+.permissions .radioC {
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius: 0;
+}
+
+/*登陆页*/
+.indexCotainer {
+    width: 100%;
+    background-color: #fff;
+    background-image: url(../images/indexheader.jpg);
+    background-size: 1000px auto;
+    background-repeat: no-repeat;
+    background-position: center 0;
+}
+
+.indexBox {
+    width: 1000px;
+    position: relative;
+    left: 50%;
+    margin-left: -500px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.indexheader {
+    width: 100%;
+    border: 0px;
+    padding: 30px 0px;
+    box-shadow: none;
+    height: 60px;
+}
+
+.indexMain {
+    width: 1000px;
+    height: 372px;
+    background-image: url(../images/indexMain.jpg);
+    background-size: 100% 100%;
+}
+
+.loginUser {
+    background-image: url(../images/loginUser.png);
+    border-color: #d80031 !important;
+}
+
+.loginPassword {
+    background-image: url(../images/loginPassword.png);
+    border-color: #e5e5e5 !important;
+}
+
+.loginInput {
+    width: 250px;
+    overflow: hidden;
+    border-radius: 2px;
+    margin-left: 60px;
+    -webkit-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.loginButton {
+    width: 240px;
+    height: 36px;
+    background-color: #d80031;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+}
+
+.loginInputBox {
+    width: 200px;
+    height: 36px;
+    border: 1px solid #fff;
+    margin-top: 20px;
+    padding: 0px 0px 0px 38px;
+    background-size: 16px 16px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.logininputText {
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #444;
+    padding: 7px 0px 7px 0px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+input:-webkit-autofill {
+     -webkit-box-shadow: 0 0 0px 1000px white inset;
+    box-shadow: 0 0 0px 1000px white inset;
+    -moz-box-shadow: 0 0 0px 1000px white inset;
+}
+
+.LoginError {
+    width: 100%;
+    color: #d80031;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+}
+
+.loginTitle {
+    color: #d80031;
+    font-size: 26px;
+    width: calc(100% - 40px);
+    padding-left: 80px;
+    line-height: 30px;
+    height: 30px;
+    padding-top: 40px;
+}
+
+.loginBox {
+    width: 360px;
+    height: 334px;
+    background-image: url(../images/indexLogin.png);
+    background-size: 100% 100%;
+    float: right;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.loginPadding {
+    width: 288px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+
+.copyrightText {
+    text-align: center;
+    width: 100%;
+    font-size: 14px;
+    color: #333333;
+    height: 40px;
+    line-height: 40px;
+}
+
+/*弹出框样式*/
+.blackZZ {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -moz-opacity: 0;
+    -khtml-opacity: 0;
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+    filter: "alpha(opacity=0)";
+}
+
+.blackContentZZ {
+    width: 240px;
+    background-color: #fff;
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -120px;
+    top: 100px;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    padding-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+.blackTanZZ {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.blackTitleZZ {
+    color: #333;
+    font-size: 16px;
+    width: 100%;
+    text-align: center;
+    display: block;
+    line-height: 40px;
+    height: 40px;
+    border-bottom: 2px solid #d80031;
+}
+
+.blackTextZZ {
+    width: 100%;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.blackHiddenZZ {
+    width: 100%;
+    padding: 10px 0;
+    text-align: center;
+    height: 16px;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+.btnTanZZ {
+    width: 100px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    line-height: 32px;
+    text-align: center;
+    float: left;
+}
+
+.btnTanGrayZZ {
+    background-color: #eee;
+    color: #444;
+    margin-left: 16px;
+    margin-right: 2px;
+}
+
+.btnTanZhuZZ {
+    background-color: #d80031;
+    color: #fff;
+    margin-left: 2px;
+    margin-right: 16px;
+}

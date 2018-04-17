@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+/*@import "menu.css";*/
+/** 清除内外边距  */
+body, h1, h2, h3, h4, h5, h6, hr, p,
+blockquote, /* structural elements 结构元素 */
+dl, dt, dd, ul, ol, li, /* list elements 列表元素 */
+pre, /* text formatting elements 文本格式元素 */
+form, fieldset, legend, button, input, textarea, /* form elements 表单元素 */
+th, td, /* table elements 表格元素 */
+img /* img elements 图片元素 */
+{
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+/** 设置默认字体 **/
+body, button, input, select, textarea {
+    font: 12px/1.5 "微软雅黑", tahoma, Srial, helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+em {
+    font-style: normal;
+}
+
+/** 重置列表元素 **/
+ul, ol {
+    list-style: none;
+}
+
+/** 重置超链接元素 **/
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+/** 重置图片元素 **/
+/** 重置表格元素 **/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+}
+
+button, input, select, textarea {
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+    *vertical-align: middle;
+}
+
+img /* img elements 图片元素 */, select, option {
+    border: medium none;
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+    list-style: none;
+    border: none;
+    border: none;
+    background-color: transparent;
+
+    overflow: hidden; /*隐藏了小三角，因为宽度为110px,而select宽度为130px*/
+    border-width: 0px;
+    border-top-style: none;
+    border-right-style: none;
+    border-left-style: none;
+    border-bottom-style: none;
+}
+
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+    -webkit-appearance: button;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+}
+
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+textarea {
+    overflow: auto;
+    vertical-align: top;
+    resize: vertical;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {
+    display: none;
+}
+
+select {
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    padding-right: 14px;
+}
+
+/*清除ie的默认选择框样式清除，隐藏下拉箭头*/
+select::-ms-expand {
+    display: none;
+}
+	
+

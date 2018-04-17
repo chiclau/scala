@@ -1,0 +1,80 @@
+springProfiles = "${springProfiles}"
+logPath = "${logPath}"
+port = 60102
+posRS {
+  url = "http://127.0.0.1:60101/posRS"
+}
+acq {
+  ip = "22.7.24.158"
+  port = 1000
+}
+db {
+  sit {
+    jdbc {
+      driver = "oracle.jdbc.driver.OracleDriver"
+      url = "jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = 22.188.192.235)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = 22.188.192.236)(PORT = 1521))(LOAD_BALANCE = yes))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = oraHHAP)(FAILOVER_MODE =(TYPE = SELECT)(METHOD = BASIC)(RETRIES = 180)(DELAY = 5))))"
+      username = "c3Bvc19zaXQ="
+      password = "Y3ZmZzYldHk="
+      #是否加密数据库的用户名和密码
+      encipher = true
+      # 最大活动连接数
+      maxActive = 10
+      # 最大空闲连接数
+      maxIdle = 3
+      #是否自动提交
+      defaultAutoCommit = true
+      # 设置多长时间我们检查闲置，废弃的链接，默认是5秒
+      timeBetweenEvictionRunsMillis = 900000
+      #设置链接被驱逐前可以闲置多长时间，默认60秒
+      minEvictableIdleTimeMillis = 1800000
+      testOnBorrow = true
+      validationQuery = "select 1 from dual"
+    }
+  }
+
+  uat {
+    jdbc {
+      driver = "oracle.jdbc.driver.OracleDriver"
+      url = "jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = 22.188.192.235)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = 22.188.192.236)(PORT = 1521))(LOAD_BALANCE = yes))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = oraHHAP)(FAILOVER_MODE =(TYPE = SELECT)(METHOD = BASIC)(RETRIES = 180)(DELAY = 5))))"
+      username = "c3Bvc19zaXQ="
+      password = "Y3ZmZzYldHk="
+      #是否加密数据库的用户名和密码
+      encipher = true
+      # 最大活动连接数
+      maxActive = 10
+      # 最大空闲连接数
+      maxIdle = 3
+      #是否自动提交
+      defaultAutoCommit = true
+      # 设置多长时间我们检查闲置，废弃的链接，默认是5秒
+      timeBetweenEvictionRunsMillis = 900000
+      #设置链接被驱逐前可以闲置多长时间，默认60秒
+      minEvictableIdleTimeMillis = 1800000
+      testOnBorrow = true
+      validationQuery = "select 1 from dual"
+    }
+  }
+
+  product {
+    jdbc {
+      driver = "oracle.jdbc.driver.OracleDriver"
+      url = "jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = 22.188.192.235)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = 22.188.192.236)(PORT = 1521))(LOAD_BALANCE = yes))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = oraHHAP)(FAILOVER_MODE =(TYPE = SELECT)(METHOD = BASIC)(RETRIES = 180)(DELAY = 5))))"
+      username = "c3Bvc19zaXQ="
+      password = "Y3ZmZzYldHk="
+      #是否加密数据库的用户名和密码
+      encipher = true
+      # 最大活动连接数
+      maxActive = 10
+      # 最大空闲连接数
+      maxIdle = 3
+      #是否自动提交
+      defaultAutoCommit = true
+      # 设置多长时间我们检查闲置，废弃的链接，默认是5秒
+      timeBetweenEvictionRunsMillis = 900000
+      #设置链接被驱逐前可以闲置多长时间，默认60秒
+      minEvictableIdleTimeMillis = 1800000
+      testOnBorrow = true
+      validationQuery = "select 1 from dual"
+    }
+  }
+}

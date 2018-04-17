@@ -1,0 +1,18 @@
+你好123
+
+<db.jdbc.driver>oracle.jdbc.driver.OracleDriver</db.jdbc.driver>
+                <db.jdbc.url>jdbc:oracle:thin:@(DESCRIPTION =(ADDRESS_LIST =(ADDRESS = (PROTOCOL = TCP)(HOST = 22.188.192.235)(PORT = 1521))(ADDRESS = (PROTOCOL = TCP)(HOST = 22.188.192.236)(PORT = 1521))(LOAD_BALANCE = yes))(CONNECT_DATA =(SERVER = DEDICATED)(SERVICE_NAME = oraHHAP)(FAILOVER_MODE =(TYPE = SELECT)(METHOD = BASIC)(RETRIES = 180)(DELAY = 5))))</db.jdbc.url>
+                <db.jdbc.username>c3Bvc19zaXQ=</db.jdbc.username>
+                <db.jdbc.password>Y3ZmZzYldHk=</db.jdbc.password>
+                <!--是否加密数据库的用户名和密码-->
+                <db.jdbc.encipher>true</db.jdbc.encipher>
+                <!--最大活动连接数-->
+                <db.jdbc.maxActive>10</db.jdbc.maxActive>
+                <!--最大空闲连接数-->
+                <db.jdbc.maxIdle>3</db.jdbc.maxIdle>
+                <!--默认自动提交-->
+                <db.jdbc.defaultAutoCommit>true</db.jdbc.defaultAutoCommit>
+                <!--设置多长时间我们检查闲置，废弃的链接，默认是5秒-->
+                <db.jdbc.timeBetweenEvictionRunsMillis>900000</db.jdbc.timeBetweenEvictionRunsMillis>
+                <!--设置链接被驱逐前可以闲置多长时间，默认60秒-->
+                <db.jdbc.minEvictableIdleTimeMillis>1800000</db.jdbc.minEvictableIdleTimeMillis>
